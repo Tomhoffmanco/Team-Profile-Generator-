@@ -1,29 +1,34 @@
 const Manager = require("../lib/Manager");
-const manager = new Manager("Thomas", "4564353", "tomhoffmanco@gmail.com");
+const manager = new Manager(
+  "Thomas",
+  "4564353",
+  "Tomhoffmanco@gmail.com",
+  "821"
+);
 
 test("test if we can get the constructor values for manager object", () => {
-  expect(manager.name).tobe("");
-  expect(manager.id).tobe("");
-  expect(manager.email).tobe("");
-  expect(manager.officeNumber).tobe("821");
+  expect(manager.name).toBe("Thomas");
+  expect(manager.id).toBe("4564353");
+  expect(manager.email).toBe("Tomhoffmanco@gmail.com");
+  expect(manager.officeNumber).toBe("821");
 });
 
 test("test if we can get the name from the getName() method", () => {
-  expect(manager.getName()).tobe("Thomas");
+  expect(manager.getName()).toBe("Thomas");
 });
 
 test("test if we can get the id from the getId() method", () => {
-  expect(manager.getId()).tobe("4564353");
+  expect(manager.getId()).toBe("4564353");
 });
 
 test("test if we can get the email from the getemail() method", () => {
-  expect(manager.getEmail()).tobe("tomhoffman@gmail.com");
+  expect(manager.getEmail()).toBe("Tomhoffmanco@gmail.com");
 });
 
 test("test if we can get the officenumber from the getOfficeNumber() method", () => {
-  expect(manager.getOfficeNumber()).tobe("821");
+  expect(manager.getOfficeNumber()).toBe("821");
 });
 
 test("test if we can get the role from the getRole() method", () => {
-  expect(manager.getRole()).tobe("Manager");
+  expect(manager.getRole()).toBe("Manager");
 });
