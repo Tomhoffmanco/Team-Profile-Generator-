@@ -1,5 +1,5 @@
-const Manager = require("../lib/Intern");
-const manager = new Intern("Thomas", "4564353", "tomhoffmanco@gmail.com");
+const Intern = require("../lib/Intern");
+const intern = new Intern("Thomas", "4564353", "tomhoffmanco@gmail.com");
 
 test("test if we can get the constructor values for manager object", () => {
   expect(intern.name).tobe("");
