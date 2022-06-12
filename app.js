@@ -243,13 +243,13 @@ const promptIntern = () => {
     ])
     .then((answers) => {
       console.log(answers);
-      const Intern = new Intern(
+      const intern = new Intern(
         answers.name,
         answers.employeeID,
         answers.email,
         answers.school
       );
-      teamMembers.push(Intern);
+      teamMembers.push(intern);
       promptMenu();
     });
 };
