@@ -1,0 +1,58 @@
+header {
+  background-color: rgb(156, 179, 201);
+  margin: 30px;
+  width: 100vw;
+}
+.dist {
+  margin: auto;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+h1 {
+  font-family: "Palatino", Serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+span {
+  opacity: 0.6;
+}
+
+body {
+  font-family: "Muli", Sans-Serif;
+  background-color: darkgrey;
+  color: #c02f36;
+}
+
+.jumbotron {
+  background: #bd4242;
+}
+
+.employee-card {
+  box-shadow: 5px 3px 9px 1px #446079;
+}
+
+.card-header {
+  background: #11273a;
+}
+
+.card-body {
+  color: #436380;
+}
+
+a {
+  color: #ec9044;
+}
+
+a:hover {
+  color: #d87519;
+  text-decoration: none;
+  text-transform: uppercase;
+}
